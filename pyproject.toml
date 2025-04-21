@@ -1,0 +1,18 @@
+[project]
+name = "openai-sdk"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "arxiv>=2.2.0",
+    "chainlit>=2.5.5",
+    "langchain>=0.3.23",
+    "langchain-community>=0.3.21",
+    "openai-agents>=0.0.9",
+    "pubmed>=0.0.2.post0",
+    "pydantic>=2.11.3",
+    "python-dotenv>=1.1.0",
+    "requests>=2.32.3",
+    "semanticscholar>=0.10.0",
+]
